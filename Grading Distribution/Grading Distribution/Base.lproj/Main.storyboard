@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HBN-Yb-E5V">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Calculus I-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Grading_Distribution" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="iJG-0e-bdO">
+                                <rect key="frame" x="61" y="440" width="270" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="minimumTrackTintColor" red="0.74699983889999999" green="0.038048895589999999" blue="0.056341693280000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Math 2413" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Im6-gC-ZeE">
+                                <rect key="frame" x="95" y="75" width="202" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="41"/>
+                                <color key="textColor" red="0.74699983889999999" green="0.038048895589999999" blue="0.056341693280000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="M6M-ew-h64">
+                                <rect key="frame" x="45" y="136" width="302" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Students will learn to evaluate limits, determine continuity and asymptotes of functions, computer derivatives, find slopes of tangent lines and rates of change, apporximate values and roots of functions.</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="i1g-6E-Orr">
+                                <rect key="frame" x="61" y="343" width="270" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="minimumTrackTintColor" red="0.74699983891752575" green="0.038048895594070618" blue="0.056341693279135352" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </slider>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.15598824097938147" green="0.15338433050247544" blue="0.15421268843484795" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Calculus I" id="nFt-su-Bna">
+                        <imageReference key="image" image="number.square" catalog="system" symbolScale="large" renderingMode="hierarchical" variableValue="5.5511151231257827e-17">
+                            <hierarchicalColors>
+                                <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color red="0.5585534794" green="0.117924718" blue="0.15086717899999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color red="0.5585534794" green="0.117924718" blue="0.15086717899999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </hierarchicalColors>
+                        </imageReference>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="380.91603053435114" y="823.94366197183103"/>
+        </scene>
+        <!--Mobile Programming-->
+        <scene sceneID="Bbc-mT-ejZ">
+            <objects>
+                <viewController id="0C5-HL-1Xf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Z8e-AN-Af5">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="qXz-Oj-Ht5"/>
+                        <color key="backgroundColor" red="0.155988241" green="0.1533843305" blue="0.15421268839999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Mobile Programming" id="Gny-kF-cvu">
+                        <imageReference key="image" image="laptopcomputer.and.iphone" catalog="system" symbolScale="large" renderingMode="hierarchical">
+                            <hierarchicalColors>
+                                <color red="0.56054144573714293" green="0.88547245402312558" blue="0.95827963917525771" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color red="0.56054144569999997" green="0.88547245399999996" blue="0.95827963920000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color red="0.56054144569999997" green="0.88547245399999996" blue="0.95827963920000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </hierarchicalColors>
+                        </imageReference>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nem-dI-BYb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1471" y="433"/>
+        </scene>
+        <!--Chemistry -->
+        <scene sceneID="DBL-0Z-3ta">
+            <objects>
+                <viewController id="7H2-tl-sWL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="n4n-8C-8tN">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="2dP-ey-f7H"/>
+                        <color key="backgroundColor" red="0.155988241" green="0.1533843305" blue="0.15421268839999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Chemistry " id="JgY-xr-79R">
+                        <imageReference key="image" image="flask.fill" catalog="system" symbolScale="large" renderingMode="hierarchical">
+                            <hierarchicalColors>
+                                <color red="0.24263384739999999" green="0.75231556060000004" blue="0.046476905079999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color red="0.24263384741857327" green="0.75231556056701032" blue="0.046476905083101532" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color red="0.24263384739999999" green="0.75231556060000004" blue="0.046476905079999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </hierarchicalColors>
+                        </imageReference>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NNz-sM-6oG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1471" y="-594"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="GgB-E0-S16">
+            <objects>
+                <tabBarController id="HBN-Yb-E5V" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="kHd-Y8-aVY">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="7H2-tl-sWL" kind="relationship" relationship="viewControllers" id="NeO-ak-N9u"/>
+                        <segue destination="0C5-HL-1Xf" kind="relationship" relationship="viewControllers" id="xx5-H4-wVN"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Lkf-sF-TE3"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P9P-DO-F7h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="566" y="-97"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="flask.fill" catalog="system" width="125" height="128"/>
+        <image name="laptopcomputer.and.iphone" catalog="system" width="128" height="78"/>
+        <image name="number.square" catalog="system" width="128" height="114"/>
+    </resources>
+</document>
