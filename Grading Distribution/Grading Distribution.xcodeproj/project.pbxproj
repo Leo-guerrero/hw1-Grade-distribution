@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D4BECC42C9A5B2200E5ABC1 /* CHEMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4BECC32C9A5B2200E5ABC1 /* CHEMViewController.swift */; };
+		0D4BECC62C9A5FDF00E5ABC1 /* COSCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4BECC52C9A5FDF00E5ABC1 /* COSCViewController.swift */; };
 		0D9574F12C939C5B00BA256D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9574F02C939C5B00BA256D /* AppDelegate.swift */; };
 		0D9574F32C939C5B00BA256D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9574F22C939C5B00BA256D /* SceneDelegate.swift */; };
 		0D9574F52C939C5B00BA256D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9574F42C939C5B00BA256D /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D4BECC32C9A5B2200E5ABC1 /* CHEMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHEMViewController.swift; sourceTree = "<group>"; };
+		0D4BECC52C9A5FDF00E5ABC1 /* COSCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COSCViewController.swift; sourceTree = "<group>"; };
 		0D9574ED2C939C5B00BA256D /* Grading Distribution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grading Distribution.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D9574F02C939C5B00BA256D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D9574F22C939C5B00BA256D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				0D9574F42C939C5B00BA256D /* ViewController.swift */,
 				0D9574F62C939C5B00BA256D /* Main.storyboard */,
 				0DB919A52C9A2A7800EB326A /* MathViewController.swift */,
+				0D4BECC32C9A5B2200E5ABC1 /* CHEMViewController.swift */,
+				0D4BECC52C9A5FDF00E5ABC1 /* COSCViewController.swift */,
 				0D9574F92C939C5C00BA256D /* Assets.xcassets */,
 				0D9574FB2C939C5C00BA256D /* LaunchScreen.storyboard */,
 				0D9574FE2C939C5C00BA256D /* Info.plist */,
@@ -142,8 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DB919A62C9A2A7800EB326A /* MathViewController.swift in Sources */,
+				0D4BECC42C9A5B2200E5ABC1 /* CHEMViewController.swift in Sources */,
 				0D9574F52C939C5B00BA256D /* ViewController.swift in Sources */,
 				0D9574F12C939C5B00BA256D /* AppDelegate.swift in Sources */,
+				0D4BECC62C9A5FDF00E5ABC1 /* COSCViewController.swift in Sources */,
 				0D9574F32C939C5B00BA256D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
