@@ -62,27 +62,35 @@ class MathViewController: UIViewController {
             }
             else if average >= 90 {
                 FinalGrade.text = "A"
+                FinalGrade.textColor = UIColor.green
             }
             else if average >= 85 {
                 FinalGrade.text = "+B"
+                FinalGrade.textColor = UIColor.yellow
             }
             else if average >= 80 {
                 FinalGrade.text = "B"
+                FinalGrade.textColor = UIColor.yellow
             }
             else if average >= 75 {
                 FinalGrade.text = "+C"
+                FinalGrade.textColor = UIColor.yellow
             }
             else if average >= 70{
                 FinalGrade.text = "C"
+                FinalGrade.textColor = UIColor.yellow
             }
             else if average >= 65 {
                 FinalGrade.text = "+D"
+                FinalGrade.textColor = UIColor.orange
             }
             else if average >= 60{
                 FinalGrade.text = "D"
+                FinalGrade.textColor = UIColor.orange
             }
             else if average < 60{
                 FinalGrade.text = "F"
+                FinalGrade.textColor = UIColor.red
             }
         
         }
