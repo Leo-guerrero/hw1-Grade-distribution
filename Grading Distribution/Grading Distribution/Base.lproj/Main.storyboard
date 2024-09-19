@@ -375,6 +375,39 @@ bonding and structure, reaction driving forces.</string>
             </objects>
             <point key="canvasLocation" x="1470.9923664122136" y="-594.36619718309862"/>
         </scene>
+        <!--Home-->
+        <scene sceneID="fID-gR-wnk">
+            <objects>
+                <viewController id="y7a-H5-wSZ" customClass="HomeViewController" customModule="Grading_Distribution" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nrs-PX-kFc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Grading Distribution" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4zX-8J-kjT">
+                                <rect key="frame" x="42" y="73" width="308" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="37"/>
+                                <color key="textColor" red="0.750866644777196" green="0.99327480670103097" blue="0.98491274513684268" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="91O-f3-JAJ"/>
+                        <color key="backgroundColor" red="0.15075377511024807" green="0.14590929729916938" blue="0.15828366623711343" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" id="0j6-ir-6jB">
+                        <imageReference key="image" image="house" catalog="system" renderingMode="hierarchical">
+                            <hierarchicalColors>
+                                <color systemColor="systemBackgroundColor"/>
+                                <color systemColor="secondarySystemGroupedBackgroundColor"/>
+                                <color systemColor="secondarySystemGroupedBackgroundColor"/>
+                            </hierarchicalColors>
+                        </imageReference>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2ot-qo-x1Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-395" y="131"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="GgB-E0-S16">
             <objects>
@@ -386,6 +419,7 @@ bonding and structure, reaction driving forces.</string>
                         <color key="selectedImageTintColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                     </tabBar>
                     <connections>
+                        <segue destination="y7a-H5-wSZ" kind="relationship" relationship="viewControllers" id="Wft-Pg-3ET"/>
                         <segue destination="7H2-tl-sWL" kind="relationship" relationship="viewControllers" id="NeO-ak-N9u"/>
                         <segue destination="0C5-HL-1Xf" kind="relationship" relationship="viewControllers" id="xx5-H4-wVN"/>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Lkf-sF-TE3"/>
@@ -398,9 +432,13 @@ bonding and structure, reaction driving forces.</string>
     </scenes>
     <resources>
         <image name="flask.fill" catalog="system" width="125" height="128"/>
+        <image name="house" catalog="system" width="128" height="104"/>
         <image name="laptopcomputer.and.iphone" catalog="system" width="128" height="78"/>
         <image name="number.square" catalog="system" width="128" height="114"/>
         <systemColor name="secondarySystemGroupedBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
